@@ -1,0 +1,27 @@
+body {
+    background-color: #8895fe;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background: #2297ff;
+    color: white;
+    font-family: Roboto;
+}
+
+.container > div {
+    text-align: center;
+}
+#number {
+    box-sizing: border-box;
+    font-size: 12px;
+    padding-top: 4px;
+}
+.container > div:nth-child(2) {
+    font-size: 50px;
+}
+.container > div:first-child,
+.container > div:last-child {
+    height: calc((100px - 60.33px) / 2);
+}
