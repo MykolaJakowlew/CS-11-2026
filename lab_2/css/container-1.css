@@ -1,0 +1,67 @@
+.container-1 {
+    width: 100%;
+    height: calc(100vh - 60px);
+    min-height: 600px;
+    max-height: 800px;
+    background-image: url('../imgs/bg-1.jpg');
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.container-1>.main-content {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
+    width: 100%;
+}
+
+.container-1 .wrapper-1 {
+    width: 72%;
+    height: 80%;
+}
+
+.container-1 .wrapper-2 {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-1 .title>div:first-child {
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.container-1 .title>div:nth-child(2) {
+    font-size: 130px;
+    font-family: "Roboto Condensed";
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 0.8;
+}
+
+.container-1 .title>div:nth-child(3) {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* .container-1 .wrapper-2>div:nth-child(3)>a {
+    color: black;
+} */
+.container-1 a {
+    color: black;
+}
+.container-1 table td {
+    padding: 2.5px 5px
+}
+.container-1 table tr:nth-child(2){
+    height: 22px
+}
