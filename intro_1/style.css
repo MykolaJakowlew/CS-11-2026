@@ -1,0 +1,27 @@
+table {
+    width: 1200px;
+    color: whitesmoke
+}
+
+td {
+    padding: 5px;
+}
+td>div:nth-child(2) {
+   font-size: 60px;
+   text-align: center;
+}
+td>div:nth-child(3) {
+   text-align: center;
+   font-size: 20px;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-red {
+    background-color: rgb(166, 56, 56);
+}
+.bg-blue {
+    background-color: #5f04fd
+}
