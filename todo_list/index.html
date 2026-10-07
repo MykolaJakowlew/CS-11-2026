@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій Todo List</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="todo-app">
+        <header class="app-header">
+            <h1>Список завдань</h1>
+        </header>
+
+        <form id="todo-form" class="todo-form">
+            <div class="input-group">
+                <input 
+                  type="text"
+                  id="todo-title"
+                  placeholder="Назва завдання..."
+                  required
+                  maxlength="50"
+                >
+            </div>
+            <div class="input-group">
+                <textarea 
+                  id="todo-desc"
+                  placeholder="Короткий опис (необов'язково)..."
+                  rows="2"
+                  maxlength="150"
+                ></textarea>
+            </div>
+            <button type="submit" class="btn-add">
+                <i class="fa-solid fa-plus"></i> Додати
+            </button>
+        </form>
+        <div class="todo-container">
+            <ul id="todo-list" class="todo-list"></ul>
+            <div id="empty-state" class="empty-state">
+                <i class="fa-regular fa-clipboard"></i>
+                <p>Список порожній. Додайте перше завдання!</p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
